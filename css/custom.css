@@ -532,3 +532,9 @@ ul.social a.sc-mastodon {
 .tech-logo img {
     width: 100px;
 }
+
+.tech-logo img:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
