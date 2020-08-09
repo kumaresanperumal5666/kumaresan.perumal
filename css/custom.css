@@ -531,7 +531,8 @@ ul.social a.sc-mastodon {
 }
 
 .tech-logo img {
-    width: 100px;
+    width: 73px;
+    height: 70px;
 }
 
 .tech-logo img:hover {
@@ -541,15 +542,17 @@ ul.social a.sc-mastodon {
 }
 
 .arrange-img li {
-    width: 33.3%;
-    float: left;
+    /* width: 33.3%;
+    float: left; */
+    display: inline-block;
+    margin-right: 18px;
 }
 
 .arrange-img img {
     border: 0 none;
     display: inline-block;
     vertical-align: middle;
-    height: 60px;
+    /* height: 60px;
     width: 73px;
-    margin: 2px;
+    margin: 2px; */
 }
