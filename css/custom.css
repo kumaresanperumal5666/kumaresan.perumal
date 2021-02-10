@@ -55,7 +55,8 @@ body {
     color: #242121;
     font-family: 'Source Sans Pro', 'Roboto', 'Open Sans', 'Liberation Sans', 'DejaVu Sans', 'Verdana', 'Helvetica', 'Arial', sans-serif;
     font-size: 1.02em;
-    line-height: 1.2em
+    line-height: 2em;
+    /* font-weight: 100; */
 }
 
 a {
@@ -530,5 +531,28 @@ ul.social a.sc-mastodon {
 }
 
 .tech-logo img {
-    width: 100px;
+    width: 73px;
+    height: 70px;
+}
+
+.tech-logo img:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+.arrange-img li {
+    /* width: 33.3%;
+    float: left; */
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.arrange-img img {
+    border: 0 none;
+    display: inline-block;
+    vertical-align: middle;
+    /* height: 60px;
+    width: 73px;
+    margin: 2px; */
 }
